@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+ /* Navbar */
+.header-main{
+    background-color: rgb(250, 243, 233);
+    width: 100%;
+    height: 100%;
+}
+nav{
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   padding: 25px;
+   
+
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.btn-nav-header{
+    display: block;
+}
+
+/* navbar End */
+/* Nav-Body Start */
+
+.header-body{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.baner-text{
+    display: flex;
+    display: inline-block;
+    align-items: center
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.btn-header{
+    width: 120px;
+    height: 60px;
+
+}
+
+.baner-img{
+    justify-content: center;
+    width: 800px;
+    height: 300px;
+   
+}
+
+/* Nav-Body End */
+
+.team-section{
+    display: flex; 
+   
+   }
+   .img-team{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       gap: 20px;
+       width: 100px;
+       height: 100px;
+   }
+   .header-body{
+       text-align: center;
+
+
+
+@media only screen and (max-width: 576px){
+   .header-body{
+    nav{
+        padding: 10px;
+    }
+    .logo-text {
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+   }
+        
+            
+    
+    }    
+
+/* Head Section Start*/
+
+
+/* Head Section end*/
+
+
+
+
+/* Nav-Section Start*/
+
+
+/* Nav-Section end*/
+
+
+
+/* Media Query Section Start*/
+@media only screen and (max-width){
+
+}
+    
+
+/* HMedia QuerySection end*/
