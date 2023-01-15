@@ -24,6 +24,7 @@ nav > ul{
 }
 .btn-nav-header{
     display: block;
+
 }
 
 /* navbar End */
@@ -33,10 +34,14 @@ nav > ul{
     text-align: center;
     justify-content: center;
 }
-
+p{
+    font-size: 16px;
+}
 
 .baner-text{
     display: flex;
+    font-weight: 400;
+    font-size: 20px;
     display: inline-block;
     align-items: center
     display: flex;
@@ -45,7 +50,13 @@ nav > ul{
 }
 .btn-header{
     width: 120px;
-    height: 60px;
+    height: 40px;
+    color: white;
+    background: orange
+    margin: 1px solid;
+    
+    
+    margin-top: 10px;
 
 }
 
